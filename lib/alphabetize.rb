@@ -1,3 +1,7 @@
 def alphabetize(arr)
-  # code here
+  esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split("")
+
+  string = string.split(" ").join("").split("")
+
+  # use block form of sort
 end
