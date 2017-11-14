@@ -1,7 +1,7 @@
 def alphabetize(arr)
   esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split("")
 
-  string = string.split(" ").join("").split("")
-
-  # use block form of sort
+  arr.sort_by do |string|
+    string.split("").map { |char| esperanto.index(char)  }
+  end
 end
